@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Textured Throw Pillow",
+    "desc": "Adds warmth and softness to a sofa, chair, or bed.",
+    "tag": "Cozy accent",
+    "price": "$18",
+    "link": "#"
+  },
+  {
+    "name": "Ceramic Table Vase",
+    "desc": "A clean centerpiece for shelves, tables, and entryways.",
+    "tag": "Minimal decor",
+    "price": "$22",
+    "link": "#"
+  },
+  {
+    "name": "Woven Storage Basket",
+    "desc": "Keeps clutter tucked away while adding natural texture.",
+    "tag": "Organizing style",
+    "price": "$26",
+    "link": "#"
+  },
+  {
+    "name": "Framed Wall Art Set",
+    "desc": "An easy way to fill blank walls with a pulled-together look.",
+    "tag": "Wall refresh",
+    "price": "$24",
+    "link": "#"
+  },
+  {
+    "name": "Fluted Candle Holder",
+    "desc": "A small accent that adds interest to any tabletop.",
+    "tag": "Tabletop detail",
+    "price": "$14",
+    "link": "#"
+  },
+  {
+    "name": "Neutral Area Rug",
+    "desc": "Softens a room with a simple pattern and easy color palette.",
+    "tag": "Room anchor",
+    "price": "$39",
+    "link": "#"
+  }
+]
