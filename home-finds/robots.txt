@@ -1,6 +1,0 @@
-User-agent: *
-Allow: /
-
-Disallow: /admin.html
-
-Sitemap: https://YOUR-USERNAME.github.io/home-finds/sitemap.xml
