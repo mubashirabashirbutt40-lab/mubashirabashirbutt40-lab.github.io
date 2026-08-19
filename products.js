@@ -8,15 +8,16 @@
 window.DEFAULT_PRODUCTS = [
   {
     id: 1,
-    name: "Silver LED Wall Mirror",
-    description: "Modern frameless LED mirror with a premium silver finish for bathrooms and dressing spaces.",
-    price: "From PKR 5,918",
-    oldPrice: "PKR 8,999",
-    discount: "Save 34%",
+    name: "Viral Home Decor Products | Alishba.com Finds for Cozy Homes",
+    description: "Add a soft luxury touch to your space with this smooth-glazed ceramic candle jar, designed with an elegant gift box and beautiful pastel styling. Perfect for home decor lovers and thoughtful gifting—Shop Now to discover this stylish find.
+    #HomeDecor #ViralHomeDecor #CandleDecor #CeramicCandle #HomeFinds #GiftIdeas #AlishbaFinds",
+    price: "From PKR 897",
+    oldPrice: "PKR 1000",
+    discount: "Save 40%",
     badge: "Trending Now",
-    category: "Bathroom",
-    image: "https://images.unsplash.com/photo-1620626011761-996317b8d101?auto=format&fit=crop&w=800&q=80",
-    affiliateUrl: "PASTE_ALIBABA_AFFILIATE_LINK_HERE",
+    category: "Lighting",
+    image: "C:\Users\Mumtaz IT\OneDrive\Pictures\Screenshots\im.png",
+    affiliateUrl: "https://offer.alibaba.com/cps/tis9a8or?bm=cps&src=saf&productId=1601885664038",
     featured: true,
     active: true
   },
