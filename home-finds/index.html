@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home Finds | Trending Home Decor Products</title>
+    <meta
+      name="description"
+      content="Discover trending home decor products, stylish home finds, lighting, mirrors, bathroom decor and more at Home Finds."
+    />
+    <link rel="canonical" href="https://YOUR-USERNAME.github.io/home-finds/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Home Finds" />
+    <meta property="og:title" content="Home Finds | Trending Home Decor Products" />
+    <meta
+      property="og:description"
+      content="Discover trending home decor products, stylish home finds, lighting, mirrors, bathroom decor and more at Home Finds."
+    />
+    <meta property="og:url" content="https://YOUR-USERNAME.github.io/home-finds/" />
+    <meta property="og:image" content="assets/images/placeholder.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Home Finds | Trending Home Decor Products" />
+    <meta
+      name="twitter:description"
+      content="Discover trending home decor products, stylish home finds, lighting, mirrors, bathroom decor and more at Home Finds."
+    />
+    <meta name="twitter:image" content="assets/images/placeholder.svg" />
+    <link rel="icon" href="assets/images/placeholder.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="logo" href="index.html">HOME FINDS</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+          <span></span>
+        </button>
+        <nav id="site-nav" class="site-nav" aria-label="Primary">
+          <a href="#home">Home</a>
+          <a href="#trending">Trending</a>
+          <a href="#categories">Categories</a>
+          <a href="#about">About</a>
+          <a href="#disclosure">Disclosure</a>
+          <a class="btn" href="#categories">Shop Finds</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="section pin-landing" id="pin-landing" hidden>
+        <div class="section-inner" id="pin-landing-inner"></div>
+      </section>
+
+      <section class="hero" id="home">
+        <div class="section-inner hero-grid">
+          <div>
+            <p class="eyebrow">Home decor finds</p>
+            <h1>Beautiful finds for a home you love.</h1>
+            <p class="lede">
+              Discover stylish, practical and affordable home decor finds curated for beautiful everyday spaces.
+            </p>
+            <div class="hero-actions">
+              <a class="btn" href="#trending">Explore Trending Finds</a>
+              <a class="btn btn-ghost" href="#categories">Browse Categories</a>
+            </div>
+          </div>
+          <div class="hero-panel" role="img" aria-label="Warm, modern living room styled with home decor"></div>
+        </div>
+      </section>
+
+      <section class="benefits" aria-label="Why Home Finds">
+        <div class="section-inner benefit-grid">
+          <article class="benefit-card">
+            <h3>Curated Home Finds</h3>
+            <p>A focused edit of home decor pieces chosen for everyday rooms, not an endless catalog.</p>
+          </article>
+          <article class="benefit-card">
+            <h3>Trending Styles</h3>
+            <p>Warm neutrals, quiet metallics, and practical pieces that photograph well and live well.</p>
+          </article>
+          <article class="benefit-card">
+            <h3>Beautiful &amp; Practical</h3>
+            <p>Looks that feel elevated with products meant for real bathrooms, kitchens, and living spaces.</p>
+          </article>
+          <article class="benefit-card">
+            <h3>Easy Shopping</h3>
+            <p>Shop Now takes you to the retailer listing so you can compare details and complete your purchase there.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="trending">
+        <div class="section-inner">
+          <div class="section-head">
+            <h2>Trending Finds</h2>
+            <p class="section-note">Featured pieces selected for Pinterest-friendly rooms and everyday use.</p>
+          </div>
+          <div id="trending-grid" class="product-grid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="categories">
+        <div class="section-inner">
+          <div class="section-head">
+            <h2 id="collection-label">All Products</h2>
+            <p class="section-note">Filter by room or finish, then tap Shop Now to visit the retailer page.</p>
+          </div>
+          <div class="filter-bar" role="group" aria-label="Product categories">
+            <button type="button" data-filter="all" aria-pressed="true">All Products</button>
+            <button type="button" data-filter="Bathroom" aria-pressed="false">Bathroom</button>
+            <button type="button" data-filter="Bedroom" aria-pressed="false">Bedroom</button>
+            <button type="button" data-filter="Living Room" aria-pressed="false">Living Room</button>
+            <button type="button" data-filter="Lighting" aria-pressed="false">Lighting</button>
+            <button type="button" data-filter="Wall Decor" aria-pressed="false">Wall Decor</button>
+            <button type="button" data-filter="Storage" aria-pressed="false">Storage</button>
+            <button type="button" data-filter="Kitchen" aria-pressed="false">Kitchen</button>
+          </div>
+          <div id="product-grid" class="product-grid"></div>
+        </div>
+      </section>
+
+      <section class="section" id="about">
+        <div class="section-inner prose">
+          <h2>About Home Finds</h2>
+          <p>
+            Home Finds curates interesting home decor products and directs visitors to third-party retailers. We are an
+            independent editorial-style catalog for Pinterest visitors looking for bathroom, bedroom, living room,
+            lighting, wall decor, storage, and kitchen pieces.
+          </p>
+          <p>
+            Home Finds is not Alibaba, is not owned by Alibaba, and does not operate Alibaba product listings. When you
+            choose Shop Now, you leave this site and continue on the retailer’s own page.
+          </p>
+        </div>
+      </section>
+
+      <aside class="disclosure-banner" id="disclosure">
+        <div class="section-inner">
+          <p>
+            Disclosure: Some links on Home Finds are affiliate links. If you purchase through one of our links, we may
+            earn a commission at no additional cost to you.
+          </p>
+        </div>
+      </aside>
+
+      <section class="section" id="contact">
+        <div class="section-inner prose">
+          <h2>Contact</h2>
+          <p>
+            Questions about a listing or a broken link? Email
+            <a href="mailto:hello@homefinds.example">hello@homefinds.example</a>
+            and replace this address with your own before you publish.
+          </p>
+        </div>
+      </section>
+
+      <section class="section" id="privacy">
+        <div class="section-inner prose">
+          <h2>Privacy Policy</h2>
+          <p>
+            Home Finds is a static website. Product browsing happens in your browser. The optional admin page stores a
+            product list and a local PIN in your browser’s localStorage on that device only. We do not operate a server
+            database. Retailer sites you visit after Shop Now have their own privacy practices.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-grid">
+          <div>
+            <p class="logo">HOME FINDS</p>
+            <p>Beautiful finds for a home you love.</p>
+          </div>
+          <div>
+            <p><a href="#about">About</a></p>
+            <p><a href="#contact">Contact</a></p>
+            <p><a href="#privacy">Privacy Policy</a></p>
+          </div>
+          <div>
+            <p><a href="#disclosure">Affiliate Disclosure</a></p>
+            <p><a href="admin.html">Local catalog editor</a></p>
+          </div>
+        </div>
+        <p class="copyright">&copy; <span id="year"></span> Home Finds. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="products.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
